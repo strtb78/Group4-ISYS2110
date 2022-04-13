@@ -127,7 +127,7 @@ img{
     position: fixed;
     top: 0;
     bottom: 0;
-    right: -100%;
+    left: -100%;
     width: 300px;
     padding: 20px;
     transition: var(--transition);
@@ -136,7 +136,7 @@ img{
 
 /********/
 .sidenav.show{
-    right: 0;
+    left: 0;
 }
 /*************/
 .cancel-btn{
