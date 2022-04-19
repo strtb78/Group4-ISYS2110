@@ -12,11 +12,50 @@
         
         <section class = "booking sec-width" id = "Booking">
             <div class = "title">
-                <h2>services</h2>
+                <h2>Booking Page</h2>
             </div>
             <div class = "services-container">
          </section>
-<div class = "book">
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "Room Type">Room Type:</label>
+                    <select name="select" id="#">
+                        <option value="1">Gold Membership Room</option>
+                        <option value="2">Silver Membership Room</option>
+                        <option value="3">Bronze Membership Room</option>
+                    </select>
+                </div>
+                <div class = "form-item">
+                    <label for = "Pet">Type of Pet: </label>
+                    <select name="select" id="#">
+                        <option value="Cat">Cat</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Fish">Fish</option>
+                        <option value="Monkey">Monkey</option>
+                        <option value="Harambe">Harambe</option>
+                    </select>
+                </div>
+                
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+            
+            
+            <div class = "book">
             <form class = "book-form">
                 <div class = "form-item">
                     <label for = "checkin-date">Check In Date: </label>
