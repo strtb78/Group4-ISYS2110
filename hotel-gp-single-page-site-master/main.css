@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 :root{
-    --transition: all 0.5s ease;
-    --yellow: #f1d06d;
-    --dark: #09355c;
-    --lightyellow: #ffeebd;
+    --transition: all 0.7s ease;
+    --yellow: #f9d342;
+    --dark: #292826;
 }
 *{
     box-sizing: border-box;
-    padding: 50px;
-    margin: 1px;
-    font-family: 'Georgia Display', serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
 }
 html{
     scroll-behavior: smooth;
@@ -18,13 +17,13 @@ body{
     line-height: 1.6;
 }
 .btn{
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     padding: 10px;
-    width: 200px;
+    width: 140px;
     display: block;
     margin: 15px auto;
     cursor: pointer;
@@ -300,11 +299,11 @@ img{
 /* room */
 
 .rooms{
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .room{
-    margin: 25px 0;
-    padding-bottom: 10px;
+    margin: 45px 0;
+    padding-bottom: 25px;
     background: var(--dark);
     color: #fff;
 }
@@ -312,17 +311,17 @@ img{
     padding: 5px 20px;
 }
 .room-text h3{
-    font-size: 30px;
+    font-size: 24px;
 }
 .room-text ul{
     list-style-type: none;
     margin: 15px 0;
 }
 .room-text ul li{
-    padding: 10px 0;
+    padding: 7px 0;
 }
 .room-text ul li i{
-    color: var(--lightyellow);
+    color: var(--yellow);
     margin-right: 10px;
 }
 .rate{
@@ -331,7 +330,7 @@ img{
 .rate span{
     font-size: 40px;
     font-weight: 900;
-    color: var(--lightyellow);
+    color: var(--yellow);
 }
 .room-image{
     overflow: hidden;
@@ -342,7 +341,7 @@ img{
 .room-image:hover img{
     transform: scale(1.1);
 }
-@media (min-width: 700px){
+@media (min-width: 900px){
     .rooms-container{
         display: flex;
         flex-wrap: wrap;
